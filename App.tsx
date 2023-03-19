@@ -4,7 +4,8 @@ import {
   StatusBar,
   useColorScheme,
 } from 'react-native';
-import HomeScreen from './src/screens/HomeScreen'
+import HomeScreen from './src/screens/HomeScreen';
+import DestionationSearch from './src/screens/DestinationSearch';
 
 function App(): JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
@@ -14,7 +15,8 @@ function App(): JSX.Element {
       <StatusBar
         barStyle={isDarkMode ? 'light-content' : 'dark-content'}
       />
-      <HomeScreen />
+      {/* <HomeScreen /> */}
+      <DestionationSearch />
     </>
   );
 }
