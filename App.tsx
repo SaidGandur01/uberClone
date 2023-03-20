@@ -6,6 +6,7 @@ import {
 } from 'react-native';
 import HomeScreen from './src/screens/HomeScreen';
 import DestionationSearch from './src/screens/DestinationSearch';
+import SearchResults from './src/screens/SearchResults/index';
 
 function App(): JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
@@ -17,6 +18,7 @@ function App(): JSX.Element {
       />
       {/* <HomeScreen /> */}
       <DestionationSearch />
+      <SearchResults />
     </>
   );
 }

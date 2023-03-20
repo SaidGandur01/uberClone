@@ -5,7 +5,10 @@
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
+    "list-devices": "xcrun simctl list devices",
     "iphone": "npx react-native run-ios --udid=7323A2C3-44AE-40FF-AC91-AF7B30D3D536",
+    "iphone-14": "npx react-native run-ios --simulator='iPhone 14 Pro (16.0)'",
+    "iphone-14-max": "npx react-native run-ios --simulator='iPhone 14 Pro Max (16.2)'",
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest"
@@ -14,6 +17,7 @@
     "react": "18.2.0",
     "react-native": "0.71.4",
     "react-native-google-places-autocomplete": "^2.5.1",
+    "react-native-maps": "^1.4.0",
     "react-native-vector-icons": "^9.2.0"
   },
   "devDependencies": {
